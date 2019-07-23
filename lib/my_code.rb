@@ -68,7 +68,7 @@ end
 #   end
 # end
 def reduce_to_all_true(source_array)
-#reduce all elements of array into a single value, accumulates that value into a single variable, and returns the variable
+#reduces all elements of array into a single value, accumulates that value into a single variable, and returns the variable
 while source_array.count > 0
   if source_array.any?(false)
   end
