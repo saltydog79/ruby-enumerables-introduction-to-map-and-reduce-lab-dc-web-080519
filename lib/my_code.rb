@@ -74,7 +74,7 @@ while source_array.count > 0
     return false
   end
 end
-elsif source_array.any?(true)
+else source_array.any?(true)
   return true
 end
 end
