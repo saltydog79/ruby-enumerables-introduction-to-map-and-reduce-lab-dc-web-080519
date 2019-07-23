@@ -69,3 +69,4 @@ if source_array.any?(true)
 else
   return false
 end
+end
