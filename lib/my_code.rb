@@ -73,9 +73,9 @@ while source_array.count > 0
   if source_array.any?(false)
     return false
   end
+end
 elsif source_array.any?(true)
   return true
-end
 end
 end
 
