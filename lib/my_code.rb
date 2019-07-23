@@ -77,7 +77,7 @@ end
 else source_array.any?(true)
   return true
 end
-end
+
 
 
 
