@@ -55,7 +55,7 @@ end
 
 
 def reduce_to_all_true(source_array)
-if source_array.all?(false)
+if source_array.any?(false)
     return false
   else
   return true
