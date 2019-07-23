@@ -76,6 +76,7 @@ while source_array.any?(false)
   else
   return true
   end
+end
 
 
 
